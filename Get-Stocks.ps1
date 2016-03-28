@@ -7,7 +7,7 @@
 ## Author: Triphol "Pao" Nilkuha
 ## Email: tnilkuha@gmail.com
 ## Date: 28 Mar 2016
-## Development Env: PowerShell 5.0 on MS Windows 10.
+## Development Env: PowerShell 5.0 on Microsoft Windows 10.
 
 
 
@@ -38,6 +38,6 @@ Else {
 
 }
 
-# If there is no argument or parameter (a stock quote symbol or -File) enter, prompt the screen with this message
+# If there is no argument or parameter (a stock quote symbol or -File) enter, prompt the screen with a warning message.
 
 Else {Write-Host "Please specify a US stock quote symbol or -File Textfilename.txt for list of stock tickers `n(e.g.'Get-Stocks.ps1 ibm' or 'Get-Stocks.ps1 -File stocklist.txt')"}
